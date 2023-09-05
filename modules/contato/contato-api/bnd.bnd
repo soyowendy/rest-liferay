@@ -1,0 +1,10 @@
+Bundle-Name: contato-api
+Bundle-SymbolicName: com.liferay.treinamento.contato.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.treinamento.contato.exception,\
+	com.liferay.treinamento.contato.model,\
+	com.liferay.treinamento.contato.service,\
+	com.liferay.treinamento.contato.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../contato-service/service.xml
